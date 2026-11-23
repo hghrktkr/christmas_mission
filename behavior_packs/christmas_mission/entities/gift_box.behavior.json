@@ -1,0 +1,64 @@
+{
+  "format_version": "1.26.32",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "edu:gift_box",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "edu:gift_type": {
+          "type": "int",
+          "range": [0, 11],
+          "default": 0,
+          "client_sync": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:interact": {
+        "interactions": [{}]
+      },
+      "minecraft:push_through": {
+        "value": 0
+      }
+    },
+    "component_groups": {
+      "edu:physics_enabled": {
+        "minecraft:physics": {
+          "has_gravity": true,
+          "has_collision": true
+        }
+      },
+      "edu:physics_disabled": {
+        "minecraft:physics": {
+          "has_gravity": false,
+          "has_collision": true
+        }
+      }
+    },
+    "events": {
+      "edu:physics_enabled": {
+        "add": {
+          "component_groups": ["edu:physics_enabled"]
+        },
+        "remove": {
+          "component_groups": ["edu:physics_disabled"]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["edu:physics_disabled"]
+        }
+      }
+    }
+  }
+}

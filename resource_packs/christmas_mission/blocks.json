@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.0",
+	"fake_portal": {
+		"sound": "glass"
+	},
+	"portrait_santa_claus_red": {
+		"sound": "wood"
+	},
+	"portrait_santa_claus_black": {
+		"sound": "wood"
+	},
+	"portrait_none": {
+		"sound": "wood"
+	},
+	"table": {
+		"sound": "wood"
+	},
+	"christmas_tree_red": {
+		"sound": "wood"
+	},
+	"christmas_tree_yellow": {
+		"sound": "wood"
+	},
+	"snowman": {
+		"sound": "wood"
+	},
+	"snowman_blink": {
+		"sound": "wood"
+	},
+	"stuffed_bear": {
+		"sound": "cloth"
+	},
+	"stuffed_bear_blink": {
+		"sound": "cloth"
+	},
+	"stuffed_bear_right_hand_up": {
+		"sound": "cloth"
+	},
+	"present_box_blue": {
+		"sound": "wood"
+	},
+	"present_box_red": {
+		"sound": "wood"
+	},
+  "number_0": {
+    "sound": "stone"
+  },
+  "number_9": {
+    "sound": "stone"
+  },
+  "number_8": {
+    "sound": "stone"
+  },
+  "number_7": {
+    "sound": "stone"
+  },
+  "number_6": {
+    "sound": "stone"
+  },
+  "number_5": {
+    "sound": "stone"
+  },
+  "number_4": {
+    "sound": "stone"
+  },
+  "number_3": {
+    "sound": "stone"
+  },
+  "number_2": {
+    "sound": "stone"
+  },
+  "number_1": {
+    "sound": "stone"
+  }
+}

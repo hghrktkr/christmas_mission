@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Christmas mission behavior pack",
+    "description": "Christmas mission behavior pack",
+    "uuid": "ecff9b51-3e12-4507-bded-015ae7478a8e",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 32]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "9c1c254c-b918-4cef-8ce4-f903f72829b8",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.2.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0"
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "blockbench_entity_wizard": ["1.8.3"],
+      "blockbench_item_wizard": ["1.2.4"]
+    }
+  }
+}

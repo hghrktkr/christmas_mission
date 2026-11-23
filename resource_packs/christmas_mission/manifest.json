@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Christmas mission resource pack",
+		"description": "Christmas mission resource pack description",
+		"uuid": "c793a6b9-aa83-4777-8d98-11cc7e567947",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 26, 32]
+	},
+	"modules": [
+		{
+			"description": "My Resource Pack",
+			"type": "resources",
+			"uuid": "11d65dfe-e0f2-4f41-a4a7-cbc7b1d9a273",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ecff9b51-3e12-4507-bded-015ae7478a8e",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.3"],
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	}
+}

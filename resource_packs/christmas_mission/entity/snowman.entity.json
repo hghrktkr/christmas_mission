@@ -1,0 +1,18 @@
+{
+  "format_version": "1.26.32",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "edu:snowman",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/snowman"
+      },
+      "geometry": {
+        "default": "geometry.snowman"
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}

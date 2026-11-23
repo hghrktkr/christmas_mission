@@ -1,0 +1,18 @@
+{
+  "format_version": "1.26.32",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "edu:stuffed_bear",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/stuffed_bear"
+      },
+      "geometry": {
+        "default": "geometry.stuffed_bear"
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}

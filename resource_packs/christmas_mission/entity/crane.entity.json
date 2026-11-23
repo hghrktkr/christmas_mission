@@ -1,0 +1,22 @@
+{
+  "format_version": "1.26.32",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "edu:crane",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/crane"
+      },
+      "geometry": {
+        "default": "geometry.crane"
+      },
+      "render_controllers": ["controller.render.default"],
+      "animations": {
+        "open_arm": "animation.crane.open",
+        "close_arm": "animation.crane.close"
+      }
+    }
+  }
+}

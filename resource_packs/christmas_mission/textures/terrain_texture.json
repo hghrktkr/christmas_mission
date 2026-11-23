@@ -1,0 +1,53 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "christmas_tree_red": {
+      "textures": "textures/blocks/christmas_tree_red"
+    },
+    "christmas_tree_yellow": {
+      "textures": "textures/blocks/christmas_tree_yellow"
+    },
+    "snowman_blink": {
+      "textures": "textures/blocks/snowman_blink"
+    },
+    "stuffed_bear": {
+      "textures": "textures/blocks/stuffed_bear"
+    },
+    "stuffed_bear_blink": {
+      "textures": "textures/blocks/stuffed_bear_blink"
+    },
+    "number_0": {
+      "textures": "textures/blocks/number_0"
+    },
+    "number_9": {
+      "textures": "textures/blocks/number_9"
+    },
+    "number_8": {
+      "textures": "textures/blocks/number_8"
+    },
+    "number_7": {
+      "textures": "textures/blocks/number_7"
+    },
+    "number_6": {
+      "textures": "textures/blocks/number_6"
+    },
+    "number_5": {
+      "textures": "textures/blocks/number_5"
+    },
+    "number_4": {
+      "textures": "textures/blocks/number_4"
+    },
+    "number_3": {
+      "textures": "textures/blocks/number_3"
+    },
+    "number_2": {
+      "textures": "textures/blocks/number_2"
+    },
+    "number_1": {
+      "textures": "textures/blocks/number_1"
+    }
+  }
+}

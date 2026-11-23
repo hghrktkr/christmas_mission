@@ -1,0 +1,138 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "edu.mission2_bgm": {
+      "category": "music",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/mission2_bgm",
+          "load_on_low_memory": true,
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.mission1_bgm": {
+      "category": "music",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/mission1_bgm",
+          "load_on_low_memory": true,
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.alert": {
+      "category": "music",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/alert",
+          "load_on_low_memory": true,
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.clear": {
+      "category": "player",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/clear",
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.game_over": {
+      "category": "player",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/gameover",
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.gong": {
+      "category": "player",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/gong",
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.gong_start": {
+      "category": "player",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/gong_start",
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.good": {
+      "category": "player",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/good",
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.miss": {
+      "category": "player",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/miss",
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    },
+    "edu.switch": {
+      "category": "player",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/custom/switch",
+          "stream": true,
+          "is3D": false,
+          "volume": 0.4
+        }
+      ]
+    }
+  }
+}

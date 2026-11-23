@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.32",
+  "render_controllers": {
+    "controller.render.gift_box": {
+      "arrays": {
+        "textures": {
+          "Array.gift_textures": [
+            "Texture.blue_green",
+            "Texture.blue_red",
+            "Texture.blue_yellow",
+            "Texture.green_blue",
+            "Texture.green_red",
+            "Texture.green_yellow",
+            "Texture.red_blue",
+            "Texture.red_green",
+            "Texture.red_yellow",
+            "Texture.yellow_blue",
+            "Texture.yellow_green",
+            "Texture.yellow_red"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["Array.gift_textures[query.property('edu:gift_type')]"]
+    }
+  }
+}

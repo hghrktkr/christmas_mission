@@ -1,0 +1,17 @@
+{
+  "mission2_bgm": {
+    "event_name": "music.game",
+    "max_delay": 180,
+    "min_delay": 60
+  },
+  "mission1_bgm": {
+    "event_name": "music.game",
+    "max_delay": 180,
+    "min_delay": 60
+  },
+  "alert": {
+    "event_name": "music.game",
+    "max_delay": 180,
+    "min_delay": 60
+  }
+}

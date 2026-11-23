@@ -1,0 +1,35 @@
+{
+  "format_version": "1.26.32",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "edu:gift_box",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "blue_green": "textures/entity/gift_box/blue_green",
+        "blue_red": "textures/entity/gift_box/blue_red",
+        "blue_yellow": "textures/entity/gift_box/blue_yellow",
+
+        "green_blue": "textures/entity/gift_box/green_blue",
+        "green_red": "textures/entity/gift_box/green_red",
+        "green_yellow": "textures/entity/gift_box/green_yellow",
+
+        "red_blue": "textures/entity/gift_box/red_blue",
+        "red_green": "textures/entity/gift_box/red_green",
+        "red_yellow": "textures/entity/gift_box/red_yellow",
+
+        "yellow_blue": "textures/entity/gift_box/yellow_blue",
+        "yellow_green": "textures/entity/gift_box/yellow_green",
+        "yellow_red": "textures/entity/gift_box/yellow_red"
+      },
+      "geometry": {
+        "default": "geometry.gift_box"
+      },
+      "render_controllers": ["controller.render.gift_box"],
+      "animations": {
+        "open_box": "animation.gift_box.open"
+      }
+    }
+  }
+}

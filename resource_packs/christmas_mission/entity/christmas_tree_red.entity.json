@@ -1,0 +1,18 @@
+{
+  "format_version": "1.26.32",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "edu:christmas_tree_red",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/christmas_tree_red"
+      },
+      "geometry": {
+        "default": "geometry.christmas_tree"
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/stuffed_bear_blink",
+    "atlas_tile": "stuffed_bear_blink",
+    "ticks_per_frame": 3,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/snowman_blink",
+    "atlas_tile": "snowman_blink",
+    "ticks_per_frame": 3,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/christmas_tree_red",
+    "atlas_tile": "christmas_tree",
+    "ticks_per_frame": 20,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/christmas_tree_yellow",
+    "atlas_tile": "christmas_tree",
+    "ticks_per_frame": 20,
+    "blend_frames": false
+  }
+]
